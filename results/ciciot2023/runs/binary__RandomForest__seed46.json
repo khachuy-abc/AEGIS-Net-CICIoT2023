@@ -1,0 +1,36 @@
+{
+ "task": "binary",
+ "model": "RandomForest",
+ "seed": 46,
+ "fingerprint": {
+  "fit_rows": "c6079837ea4a",
+  "n_fit": 499996,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 2924221,
+  "batch": 2048,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 14.911241292953491,
+ "infer_ms_per_1k": 0.8822595695847505,
+ "n_params": 3280440,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {},
+ "test": {
+  "threshold": 0.685,
+  "accuracy": 0.9834769670281418,
+  "f1_macro": 0.9214667486832517,
+  "precision": 0.9933932959592188,
+  "recall": 0.9891182426718973,
+  "fpr": 0.11600150386480511,
+  "balanced_accuracy": 0.9365583694035461,
+  "mcc": 0.8435781551278569,
+  "auc_roc": 0.9957633585314741,
+  "auc_pr": 0.9997624971009402
+ }
+}

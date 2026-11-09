@@ -1,0 +1,36 @@
+{
+ "task": "binary",
+ "model": "NaiveBayes",
+ "seed": 44,
+ "fingerprint": {
+  "fit_rows": "2822d45f6c06",
+  "n_fit": 59999,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 22640,
+  "batch": 512,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 0.024678945541381836,
+ "infer_ms_per_1k": 0.23881875162832308,
+ "n_params": 238,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {},
+ "test": {
+  "threshold": 0.005,
+  "accuracy": 0.725309187279152,
+  "f1_macro": 0.6958407784818519,
+  "precision": 0.8276531873565248,
+  "recall": 0.4720040281973817,
+  "fpr": 0.07678992918961448,
+  "balanced_accuracy": 0.6976070495038836,
+  "mcc": 0.4528204935689076,
+  "auc_roc": 0.8815689884264596,
+  "auc_pr": 0.8281091761679954
+ }
+}

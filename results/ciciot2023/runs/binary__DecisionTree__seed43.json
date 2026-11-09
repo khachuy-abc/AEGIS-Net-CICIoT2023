@@ -1,0 +1,36 @@
+{
+ "task": "binary",
+ "model": "DecisionTree",
+ "seed": 43,
+ "fingerprint": {
+  "fit_rows": "c6079837ea4a",
+  "n_fit": 499996,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 2924221,
+  "batch": 2048,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 8.13907527923584,
+ "infer_ms_per_1k": 0.06734383711442168,
+ "n_params": 32097,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {},
+ "test": {
+  "threshold": 0.7050000000000001,
+  "accuracy": 0.9789940637181663,
+  "f1_macro": 0.8974824654291282,
+  "precision": 0.9894114761641553,
+  "recall": 0.9883803371671656,
+  "fpr": 0.18652384199223854,
+  "balanced_accuracy": 0.9009282475874636,
+  "mcc": 0.7950027413959577,
+  "auc_roc": 0.9151647662432678,
+  "auc_pr": 0.9906759953069213
+ }
+}

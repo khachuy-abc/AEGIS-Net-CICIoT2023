@@ -1,0 +1,39 @@
+{
+ "task": "binary",
+ "model": "CatBoost",
+ "seed": 42,
+ "fingerprint": {
+  "fit_rows": "116b78493afb",
+  "n_fit": 60000,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 21437,
+  "batch": 512,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 3.3689193725585938,
+ "infer_ms_per_1k": 0.680600128195182,
+ "n_params": 14784,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {
+  "best_round": 231,
+  "round_cap": 1500
+ },
+ "test": {
+  "threshold": 0.525,
+  "accuracy": 0.9956150580771563,
+  "f1_macro": 0.9955907710142808,
+  "precision": 0.9952635291746448,
+  "recall": 0.9952635291746448,
+  "fpr": 0.004081987146083029,
+  "balanced_accuracy": 0.9955907710142808,
+  "mcc": 0.9911815420285618,
+  "auc_roc": 0.999888760443429,
+  "auc_pr": 0.9998745351042866
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "task": "binary",
+ "model": "XGBoost",
+ "seed": 42,
+ "fingerprint": {
+  "fit_rows": "c6079837ea4a",
+  "n_fit": 499996,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 2924221,
+  "batch": 2048,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 4.50429630279541,
+ "infer_ms_per_1k": 0.31842504078611944,
+ "n_params": 135924,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {
+  "best_round": 508,
+  "round_cap": 2000
+ },
+ "test": {
+  "threshold": 0.6950000000000001,
+  "accuracy": 0.9840408778953438,
+  "f1_macro": 0.9249834563415283,
+  "precision": 0.99438564865965,
+  "recall": 0.9887182126064037,
+  "fpr": 0.09843942164928088,
+  "balanced_accuracy": 0.9451393954785614,
+  "mcc": 0.8510819141433278,
+  "auc_roc": 0.9961211815956668,
+  "auc_pr": 0.9997830160088934
+ }
+}

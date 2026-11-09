@@ -1,0 +1,36 @@
+{
+ "task": "binary",
+ "model": "LogReg",
+ "seed": 42,
+ "fingerprint": {
+  "fit_rows": "2822d45f6c06",
+  "n_fit": 59999,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 22640,
+  "batch": 512,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 0.25126171112060547,
+ "infer_ms_per_1k": 0.06598634349162502,
+ "n_params": 60,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {},
+ "test": {
+  "threshold": 0.5700000000000001,
+  "accuracy": 0.8738515901060071,
+  "f1_macro": 0.8722409822558053,
+  "precision": 0.8478560188827695,
+  "recall": 0.8681772406847935,
+  "fpr": 0.12171518489378443,
+  "balanced_accuracy": 0.8732310278955046,
+  "mcc": 0.7446793589117326,
+  "auc_roc": 0.9566411972715381,
+  "auc_pr": 0.942033541998574
+ }
+}

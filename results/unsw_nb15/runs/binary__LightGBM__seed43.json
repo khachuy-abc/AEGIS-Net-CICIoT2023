@@ -1,0 +1,39 @@
+{
+ "task": "binary",
+ "model": "LightGBM",
+ "seed": 43,
+ "fingerprint": {
+  "fit_rows": "2822d45f6c06",
+  "n_fit": 59999,
+  "epochs": 20,
+  "task": "binary",
+  "n_test": 22640,
+  "batch": 512,
+  "lr": 0.002,
+  "rounds": 2000,
+  "version": 5
+ },
+ "fit_seconds": 1.3433187007904053,
+ "infer_ms_per_1k": 2.0385104438862616,
+ "n_params": 22011,
+ "class_names": [
+  "Benign",
+  "Attack"
+ ],
+ "info": {
+  "best_round": 87,
+  "round_cap": 2000
+ },
+ "test": {
+  "threshold": 0.5650000000000001,
+  "accuracy": 0.9036660777385159,
+  "f1_macro": 0.9024527306947895,
+  "precision": 0.8804123711340206,
+  "recall": 0.9030211480362538,
+  "fpr": 0.09583005507474429,
+  "balanced_accuracy": 0.9035955464807548,
+  "mcc": 0.8051399529658475,
+  "auc_roc": 0.9757763312503022,
+  "auc_pr": 0.9694261263432884
+ }
+}
