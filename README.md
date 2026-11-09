@@ -42,7 +42,7 @@ python main.py --data_path synthetic --out smoke --epochs 2 --seeds 42 \
 
 ## Reproduce the CICIoT2023 benchmark
 
-The dataset is not included (size). Download the CSV files from the [CIC IoT Dataset 2023 page](https://www.unb.ca/cic/datasets/iotdataset-2023.html), put them in one folder, then run the official protocol (500,000 fit rows, 5 seeds, 20 epochs; many hours, a GPU is recommended):
+The dataset is not included (size). Download the CSV files from the CIC IoT Dataset 2023 page of the University of New Brunswick (see the paper, Neto et al., Sensors 23(13):5941, 2023), put them in one folder, then run the official protocol (500,000 fit rows, 5 seeds, 20 epochs; many hours, a GPU is recommended):
 
 ```bash
 python main.py --data_path /path/to/CICIoT2023 --out outputs/ciciot2023 --cache_dir cache_ciciot

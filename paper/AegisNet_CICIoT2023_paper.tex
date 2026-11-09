@@ -275,7 +275,7 @@ DDoS       & 1{,}716{,}959 & 0.883 & 0.884 & 0.878 & 0.876 & \textbf{0.886} \\
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{fig_perclass.pdf}
-\caption{Per-class F1 (raw decision, mean of 5 seeds) on the 8-class task, classes from rarest (left) to most frequent (right), test rows in brackets. \aegis{} leads clearly only on Web-based (0.348 vs.\ 0.320 for XGBoost); on BruteForce every model stays below 0.38. Values: Table~\ref{tab:perclass}.}\label{fig:perclass}
+\caption{Per-class F1 (raw decision, mean of 5 seeds) on the 8-class task, classes from rarest (left) to most frequent (right), test rows in brackets. \aegis{} leads clearly only on Web-based (0.348 vs.\ 0.320 for XGBoost); on BruteForce none of the five models shown exceeds 0.38 (Random Forest and Extra Trees reach 0.40). Values: Table~\ref{tab:perclass}.}\label{fig:perclass}
 \end{figure}
 
 After the shared calibration the picture shifts towards trees: XGBoost reaches 0.436 on BruteForce (\aegis{} 0.398) and 0.894 on DDoS (0.886), while \aegis{} keeps the lead on Web-based (0.360 vs.\ 0.332). \textbf{Answer to RQ2:} the neural-to-tree gap on rare classes is largely closed for Web-based, where \aegis{} is 0.08--0.11 above the two neural finalists and ahead of the trees, and not closed for BruteForce, where every finalist stays below 0.44.
